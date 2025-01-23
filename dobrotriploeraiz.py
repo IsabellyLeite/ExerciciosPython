@@ -9,3 +9,4 @@ n = int(input('Digite um número:'))
 print('O dobro deste número é {}, o triplo é {} e a raiz quadrada é {:.2f}.'.format((n*2),(n*3),(n**(1/2))))
 #Se quiser acrescentar quebras entre as operações basta acrescentar o \n
 #O :.2f quer dizer que serão mostradas 2 casas decimais flutuantes. 
+#A raiz quadrada pode ser calculada usando a função pow, ficando pow(n,(1/2)).
